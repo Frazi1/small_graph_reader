@@ -46,6 +46,7 @@ void MainWindow::OnNewClick(){
 
     GraphSubWindow *subWindow = new GraphSubWindow(ui->mdiArea);
     subWindow->setAttribute(Qt::WA_DeleteOnClose);
+
     subWindow->setWindowTitle("title");
     subWindow->show();
 }
